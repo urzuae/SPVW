@@ -7,6 +7,7 @@
     <body>
         <center>
             <h1>$title</h1>
+            <!-- General information about the action plan -->
             <table width="75%" cellspacing="1" cellpadding="2" border="0" style="text-align:left;">
                 <thead>
                     <td colspan=2>Campa&ntilde;a</td>
@@ -50,12 +51,11 @@
                     </tr>
                 </tbody>
             </table>
-        </center>
-        <h1 style="text-align:center;">Acciones</h1>
-        <center>
+        <h1>Acciones</h1>
+            <!-- Add a new action to plan -->
             <table width="75%" cellspacing="1" cellpadding="2" border="0" style="text-align:left;">
                 <thead>
-                    <td colspan=2>Acciones</td>
+                    <tr><td colspan=2>Acciones</td></tr>
                 </thead>
                 <tbody>
                     <tr class="row2">
@@ -68,8 +68,7 @@
                     </tr>
                     <script>
                         function update_fecha_fin(cal)
-                        {
-                            //checamos si es mayor la ini que la fin y cambiar el fin
+                        {                            
                             var fecha_fin = document.getElementById("fecha_fin").value;
                             if (fecha_fin == '') return false;
                             var guion_1 = fecha_fin.indexOf("-");
@@ -151,6 +150,7 @@
                 </tbody>
             </table>
             <br/>
+            <!-- Look for available sources in the db -->
             <table width="75%" cellspacing="1" cellpadding="2" border="0" style="text-align:left;">
                 <thead>
                     <td colspan=2>Buscar Fuente</td>
@@ -162,6 +162,8 @@
                     </tr>
                 </tbody>
             </table>
+            <input type="button" value="Buscar" />
+            <input type="button" value="Regresar" />
         </center>
     </body>
 </html>
