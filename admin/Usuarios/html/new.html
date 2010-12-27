@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  
+  </script>
+  <title></title>
+
+
+  <meta content="">
+
+  <style></style>
+  <link rel="stylesheet" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" type="text/css">
+
+</head>
+
+  <body>
+
+<span class="title">Crear un nuevo Usuario</span>
+<script>function validate(f)
+{
+if (f.user.value == "" || f.name.value == "" || f.password.value == "")
+{
+alert("Debe de proporcionar todos los datos");
+return false;
+}
+if (f.password.value != f.password2.value)
+{
+alert("Ambos passwords deben de coincidir");
+return false;
+}
+return true;
+}
+</script>
+<form onchange="capsall(this);" name="new" action="index.php" method="post" onsubmit="return validate(this);"><input name="_module" value="$_module" type="hidden"><input name="_op" value="$_op" type="hidden">
+  <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="1">
+
+    <tbody>
+
+      <tr class="row1">
+
+        <td>Nombre de usuario</td>
+
+        <td><input name="user"  maxlength="40" onblur="check_chars(this, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789');check_min_length(this,8);caps1(this)"> Mínimo 8 caracteres $error</td>
+
+      </tr>
+
+      <tr class="row2">
+
+        <td>Nombre completo</td>
+
+        <td><input name="name" style="width:90%;" maxlength="40"></td>
+
+      </tr>
+
+      <tr class="row1">
+
+        <td>Concesionaria</td>
+
+        <td>$gselect</td>
+
+      </tr>
+      
+      <tr class="row2">
+
+        <td>Tipo de usuario</td>
+
+        <td>$select_super</td>
+
+      </tr>
+
+      <tr class="row1">
+
+        <td>Password</td>
+
+        <td><input name="password" type="password" maxlength="16" value=""> Mínimo 8, máximo 16</td>
+
+      </tr>
+
+      <tr class="row2">
+
+        <td>Repita el password</td>
+
+        <td><input name="password2" type="password" maxlength="16" value=""> Mínimo 8, máximo 16</td>
+
+      </tr>
+
+      <tr class="">
+
+        <td rowspan="1" align="right"><input value="Crear nuevo usuario" name="submit" type="submit"></td>
+        <td> <input type="checkbox" name="config">Configurar&nbsp;&nbsp;&nbsp;<input type="button" value="Cancelar" onclick="history.go(-1);"></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<? 
+if (!defined('_IN_ADMIN_MAIN_INDEX')) {
+    die ("No puedes acceder directamente a este archivo...");
+}
+
+global $db, $encuesta_id, $descripcion, $nombre, $submit;
+
+if ($encuesta_id)
+{
+  $fp = fopen("encuesta$encuesta_id.csv", 'w');
+  $sql = "SELECT pregunta_id, pregunta, tipo_id FROM crm_encuestas_preguntas WHERE encuesta_id='$encuesta_id'  ORDER BY orden";
+  $result = $db->sql_query($sql) or die("Error al consultar preguntas");
+  while(list($pregunta_id, $pregunta, $tipo_id) = $db->sql_fetchrow($result))
+  {
+    $array_respuestas = array(++$indice, $pregunta);
+    switch($tipo_id)
+    {
+      case "1": //si no
+                $sql = "SELECT contacto_id, respuesta FROM crm_encuestas_respuestas_tipo_1 AS t, crm_encuestas_resultados AS r WHERE t.resultado_id=r.resultado_id AND t.pregunta_id='$pregunta_id'";
+                $result2 = $db->sql_query($sql) or die("Error al consultar preguntas tipo<br>".print_r($db->sql_error()));
+                while (list($contacto_id, $respuesta) = $db->sql_fetchrow($result2))
+                {
+                  if ($respuesta)
+                    $r = "Sí";
+                  else
+                    $r = "No";
+                  $array_respuestas[] = "$r";
+                }
+                fputcsv($fp, $array_respuestas);
+                break;
+      case "2": //opcion múltiple
+                $sql = "SELECT contacto_id, respuesta FROM crm_encuestas_respuestas_tipo_2 AS t, crm_encuestas_resultados AS r WHERE t.resultado_id=r.resultado_id AND t.pregunta_id='$pregunta_id'";
+                $result2 = $db->sql_query($sql) or die("Error al consultar preguntas tipo<br>".print_r($db->sql_error()));
+                while (list($contacto_id, $respuesta) = $db->sql_fetchrow($result2))
+                {
+                  $sql = "SELECT opcion FROM crm_encuestas_preguntas_tipo_2 WHERE opcion_id='$respuesta' LIMIT 1";
+                  $result3 = $db->sql_query($sql) or die("Error al consultar preguntas tipo<br>".print_r($db->sql_error()));
+                  list($respuesta) = $db->sql_fetchrow($result3);
+                  $array_respuestas[] = "$respuesta";
+                }
+                fputcsv($fp, $array_respuestas);
+                break;
+      case "3": //abierta
+                $sql = "SELECT contacto_id, respuesta FROM crm_encuestas_respuestas_tipo_3 AS t, crm_encuestas_resultados AS r WHERE t.resultado_id=r.resultado_id AND t.pregunta_id='$pregunta_id'";
+                $result2 = $db->sql_query($sql) or die("Error al consultar preguntas tipo<br>".print_r($db->sql_error()));
+                while (list($contacto_id, $respuesta) = $db->sql_fetchrow($result2))
+                {
+                  $array_respuestas[] = "$respuesta";
+                }
+                fputcsv($fp, $array_respuestas);
+                break;
+      case "4": //selección múltiple
+                $sql = "SELECT contacto_id, respuesta FROM crm_encuestas_respuestas_tipo_4 AS t, crm_encuestas_resultados AS r WHERE t.resultado_id=r.resultado_id AND t.pregunta_id='$pregunta_id'";
+                $result2 = $db->sql_query($sql) or die("Error al consultar preguntas tipo<br>".print_r($db->sql_error()));
+                while (list($contacto_id, $respuesta) = $db->sql_fetchrow($result2))
+                {
+                  $sql = "SELECT opcion FROM crm_encuestas_preguntas_tipo_4 WHERE opcion_id='$respuesta' LIMIT 1";
+                  $result3 = $db->sql_query($sql) or die("Error al consultar preguntas tipo<br>".print_r($db->sql_error()));
+                  list($respuesta) = $db->sql_fetchrow($result3);
+                  $array_respuestas[] = "$respuesta";
+                }
+                fputcsv($fp, $array_respuestas);
+                break;
+    }
+  }
+  fclose($fp);
+  header("location:encuesta$encuesta_id.csv");
+}
+else
+{
+
+}
+
+?> 

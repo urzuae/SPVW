@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>$_site_title</title>
+  <meta http-equiv="Content-Type"
+  content="text/html; charset=iso-8859-1">
+  <link type="text/css"  href="$_themedir/style.css" rel="stylesheet">
+  <link type="text/css" ref="$_themedir/jquery/themes/calendar-brown.css" rel="stylesheet" media="print, projection, screen" />
+  <link type="text/css" href="$_themedir/aqua/theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="$_themedir/jquery/themes/blue/style.css" type="text/css" media="print, projection, screen" />
+  <script type="text/javascript" src="$_themedir/theme.js"></script>
+  <script type="text/javascript" src="$_themedir/jquery/calendar.js"></script>
+  <script type="text/javascript" src="$_themedir/jquery/calendar-es.js"></script>
+  <script type="text/javascript" src="$_themedir/jquery/calendar-setup.js"></script> 
+  <script type="text/javascript" src="$_themedir/jquery/jquery.js"></script> 
+  <script type="text/javascript" src="$_themedir/jquery/jquery.metadata.js"></script>
+  <script type="text/javascript" src="$_themedir/jquery/jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="$_themedir/jquery/jquery.simplemodal.js"></script>
+  <script type="text/javascript" src="$_themedir/jquery/mfll.js"></script>
+<script>
+$jquery
+</script> 
+</head>
+<body topmargin="0" leftmargin="0" onload="init_everything();">
+
+  <center>

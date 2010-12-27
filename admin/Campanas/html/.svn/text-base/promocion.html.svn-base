@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title></title>
+  <meta content="">
+  <link type="text/css" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" rel="stylesheet">
+</head>
+<body>
+  $_title
+  </script>
+  <form onchange="capsall(this);" method="post" action="index.php" name="campana" onsubmit="return validate(this);">
+    <input name="_module" value="$_module" type="hidden"><input name="_op" value="$_op" type="hidden"><input name="campana_id" value="$campana_id" type="hidden">
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <th colspan="2" rowspan="1">Campa&ntilde;a $nombre</th>
+        </tr>
+        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Tipo de promoción
+          </td>
+          <td style="width:80%;">
+            <textarea class="width100" rows="1" name="tipo">$tipo</textarea>
+          </td>
+        </tr>
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Productos o servicios a promocionar
+          </td>
+          <td>
+            <textarea class="width100" rows="3" name="productos">$productos</textarea>
+          </td>
+        </tr>
+<!--        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Duración de la promoción
+          </td>
+          <td>
+            <textarea class="width100" rows="1" name="duracion">$duracion</textarea>
+          </td>
+        </tr>-->
+        <tr class="row1">
+          <td style="text-align: right;">
+            Fecha de inicio
+          </td>
+          <td style="vertical-align: middle;">
+            <input name="fecha_ini" id="fecha_ini" value="$fecha_ini"><img src="../img/calendar.png" id="f_trigger_c" style="border: 1px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''">
+          </td>
+        </tr>
+        <script>
+function update_fecha_fin(cal)
+{
+  //alert(cal.date);
+  document.getElementById("fecha_fin").value = cal.date.print("%Y-%m-%d");
+}
+Calendar.setup(
+{
+  inputField :"fecha_ini",
+  ifFormat :"%d-%m-%Y",
+//   onUpdate : update_fecha_fin,
+  button : "f_trigger_c"
+}
+);
+        </script>
+        <tr class="row2">
+          <td style="text-align: right;">
+            Fecha de fin
+          </td>
+          <td style="vertical-align: middle;">
+            <input name="fecha_fin" id="fecha_fin" value="$fecha_fin"><img src="../img/calendar.png" id="f_trigger_d" style="border: 1px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''">
+          </td>
+        </tr>
+        <script>
+Calendar.setup(
+{
+  inputField :"fecha_fin",
+  ifFormat :"%d-%m-%Y",
+  button : "f_trigger_d"
+}
+);
+        </script>
+
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Objetivo de ventas adicionales a obtener
+          </td>
+          <td>
+            <textarea class="width100" rows="3" name="objetivo">$objetivo</textarea>
+          </td>
+        </tr>
+        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Mecánica
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="mecanica">$mecanica</textarea>
+          </td>
+        </tr>
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Proceso de control de ventas
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="proceso">$proceso</textarea>
+          </td>
+        </tr>
+        <tr class="row1" align="center">
+          <td colspan="2" rowspan="1">
+            <input name="submit" value="Aceptar" type="submit" accesskey="a"><input value="Cancelar" onclick="location.href='index.php?_module=$_module&_op=campana&campana_id=$campana_id'" type="button">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body></html>

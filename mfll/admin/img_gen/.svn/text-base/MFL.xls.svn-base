@@ -1,0 +1,225 @@
+<table align='center' class='tablesorter' width='100%'>
+                 <thead><tr>
+                <th width='20%'>Evento</th>
+                <th width='10%'>Fase</th>
+                <th width='20%'>Nombre</th>
+                <th width='10%'>Unidad</th>
+                <th width='10%'>Tipo Pago</th>
+                <th width='15%'>Concesionaria</th>
+                <th width='15%'>Vendedor</th>
+                <th width='15%'>Tel casa</th>
+                <th width='15%'>Tel Oficina</th>
+                <th width='15%'>Tel movil</th>
+                <th width='15%'>Tel Otro</th>
+                <th width='15%'>Email</th>
+                <th width='9%'>Ingreso</th></tr></thead><tbody><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MANEJA Y CONVENCE</td>
+                        <td>Registra</td>
+                        <td>LORENA PORTILLA GRIMALDO</td>
+                        <td>Nuevo Eos</td>
+                        <td></td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>51201060</td>
+                        <td>53807414</td>
+                        <td>0445533221144</td>
+                        <td></td>
+                        <td>loreportilla@hotmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MANEJA Y CONVENCE</td>
+                        <td>Maneja</td>
+                        <td>JANIA ROSALES NIETO</td>
+                        <td>Bora</td>
+                        <td></td>
+                        <td>COMERCIAL AUTOMOVILÍSTICA S.A. DE C.V.</td>
+                        <td>1901GTECRM</td>
+                        <td>58247963</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>mrn@gmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MFLL TIJUANA 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>RODRIGO CAZARES NIETO</td>
+                        <td>GTI</td>
+                        <td>Contado</td>
+                        <td>COMERCIAL AUTOMOVILÍSTICA S.A. DE C.V.</td>
+                        <td>1901GTECRM</td>
+                        <td>58247963</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>mrn@gmail.com</td>
+                        <td>26/02/2010 10:11:44</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MFLL TIJUANA 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>LUIS ANTONIO HERNANDEZ </td>
+                        <td>CrossFox</td>
+                        <td>Lessing</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>53830983</td>
+                        <td>53908078</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>lciencias@yahoo.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MFLL TIJUANA 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>RODRIGO CAZARES NIETO</td>
+                        <td>Jetta</td>
+                        <td>Credi/ estrena</td>
+                        <td>COMERCIAL AUTOMOVILÍSTICA S.A. DE C.V.</td>
+                        <td>1901GTECRM</td>
+                        <td>58247963</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>mrn@gmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>HANNIA VALENTINA HERNANDEZ NIETO</td>
+                        <td>Beetle Cabrio</td>
+                        <td>Enganche</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>DSA</td>
+                        <td>55447788</td>
+                        <td>55226633</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>xxxx@hotmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>HANNIA VALENTINA HERNANDEZ NIETO</td>
+                        <td>Jetta</td>
+                        <td>Enganche</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>DSA</td>
+                        <td>55447788</td>
+                        <td>55226633</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>xxxx@hotmail.com</td>
+                        <td>26/02/2010 10:05:03</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>HANNIA VALENTINA HERNANDEZ NIETO</td>
+                        <td>Bora</td>
+                        <td>Enganche</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>DSA</td>
+                        <td>55447788</td>
+                        <td>55226633</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>xxxx@hotmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>LESLIE ANDREA HERNANDEZ NIETO</td>
+                        <td>GTI</td>
+                        <td>Seguro Gratis</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>JAIME CAHUE</td>
+                        <td>55447788</td>
+                        <td>55226633</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>x@hotmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>XXXXXXXX YYYYYAY ZZZZZZZZ</td>
+                        <td>GTI</td>
+                        <td>Seguro Gratis</td>
+                        <td>AUTOS DE LA HUASTECA S.A. DE C.V.</td>
+                        <td>MA GUADALUPE ALVARADO ALVARADO</td>
+                        <td></td>
+                        <td></td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>yyyy@hotmail.com</td>
+                        <td>26/02/2010 09:52:27</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>LESLIE ANDREA HERNANDEZ NIETO</td>
+                        <td>Gol</td>
+                        <td>Contado</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>JAIME CAHUE</td>
+                        <td>55447788</td>
+                        <td>55226633</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>x@hotmail.com</td>
+                        <td>26/02/2010 10:16:16</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>EVENTO2010</td>
+                        <td>Registra</td>
+                        <td>ELISA BARRON </td>
+                        <td>Gol</td>
+                        <td></td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>57458542</td>
+                        <td>5412563</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>aaaaaa@yahoo.com</td>
+                        <td>01/03/2010 20:31:29</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>EVENTO2010</td>
+                        <td>Maneja</td>
+                        <td>ELVIA CRUZ </td>
+                        <td>Jetta</td>
+                        <td></td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>57458542</td>
+                        <td>5412563</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>aaaaaa@yahoo.com</td>
+                        <td>01/03/2010 20:31:29</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>EVENTO2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>ENRIQUE SANCHEZ </td>
+                        <td>CrossFox</td>
+                        <td>Lessing</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>53830983</td>
+                        <td>53908078</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>lciencias@yahoo.com</td>
+                        <td>01/03/2010 14:30:03</td>
+                        </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>EVENTO2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>JOSE PELO CALVO</td>
+                        <td>Jetta</td>
+                        <td>Credit</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>57458542</td>
+                        <td>5412563</td>
+                        <td>0445537270124</td>
+                        <td></td>
+                        <td>aaaaaa@yahoo.com</td>
+                        <td>01/03/2010 20:31:29</td>
+                        </tr></tbody><thead><tr><td colspan='13'>Total de : 15</td></tr></thead></table>

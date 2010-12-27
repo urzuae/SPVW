@@ -1,0 +1,118 @@
+<table align='center' class='tablesorter' width='100%'>
+                 <thead><tr>
+                <th width='12%'>Evento</th>
+                <th width='8%'>Fase</th>
+                <th width='20%'>Nombre</th>
+                <th width='9%'>Unidad</th>
+                <th width='7%'>Tipo Pago</th>
+                <th width='15%'>Concesionaria</th>
+                <th width='13%'>Vendedor</th>
+                <th width='9%'>Ingreso</th></tr></thead><tbody><tr class="row1" style="cursor:pointer;height:30px;" >
+                        <td>MANEJA Y CONVENCE</td>
+                        <td>Registra</td>
+                        <td>LORENA PORTILLA GRIMALDO</td>
+                        <td>Nuevo Eos</td>
+                        <td></td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MANEJA Y CONVENCE</td>
+                        <td>Maneja</td>
+                        <td>JANIA ROSALES NIETO</td>
+                        <td>Bora</td>
+                        <td></td>
+                        <td>COMERCIAL AUTOMOVILÍSTICA S.A. DE C.V.</td>
+                        <td>1901GTECRM</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row1" style="cursor:pointer;height:30px;" >
+                        <td>MFLL TIJUANA 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>RODRIGO CAZARES NIETO</td>
+                        <td>GTI</td>
+                        <td>Contado</td>
+                        <td>COMERCIAL AUTOMOVILÍSTICA S.A. DE C.V.</td>
+                        <td>1901GTECRM</td>
+                        <td>2010-02-26 10:11:44</td>
+                    </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>MFLL TIJUANA 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>LUIS ANTONIO HERNANDEZ </td>
+                        <td>CrossFox</td>
+                        <td>Lessing</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row1" style="cursor:pointer;height:30px;" >
+                        <td>MFLL TIJUANA 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>RODRIGO CAZARES NIETO</td>
+                        <td>Jetta</td>
+                        <td>Credi/ estrena</td>
+                        <td>COMERCIAL AUTOMOVILÍSTICA S.A. DE C.V.</td>
+                        <td>1901GTECRM</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>HANNIA VALENTINA HERNANDEZ NIETO</td>
+                        <td>Beetle Cabrio</td>
+                        <td>Enganche</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>DSA</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row1" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>HANNIA VALENTINA HERNANDEZ NIETO</td>
+                        <td>Bora</td>
+                        <td>Enganche</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>DSA</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>HANNIA VALENTINA HERNANDEZ NIETO</td>
+                        <td>Jetta</td>
+                        <td>Enganche</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>DSA</td>
+                        <td>2010-02-26 10:05:03</td>
+                    </tr><tr class="row1" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>LESLIE ANDREA HERNANDEZ NIETO</td>
+                        <td>GTI</td>
+                        <td>Seguro Gratis</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>JAIME CAHUE</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>XXXXXXXX YYYYYAY ZZZZZZZZ</td>
+                        <td>GTI</td>
+                        <td>Seguro Gratis</td>
+                        <td>AUTOS DE LA HUASTECA S.A. DE C.V.</td>
+                        <td>MA GUADALUPE ALVARADO ALVARADO</td>
+                        <td>2010-02-26 09:52:27</td>
+                    </tr><tr class="row1" style="cursor:pointer;height:30px;" >
+                        <td>VW BANK 2010</td>
+                        <td>Firma y Llevatelo</td>
+                        <td>LESLIE ANDREA HERNANDEZ NIETO</td>
+                        <td>Gol</td>
+                        <td>Contado</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>JAIME CAHUE</td>
+                        <td>2010-02-26 10:16:16</td>
+                    </tr><tr class="row2" style="cursor:pointer;height:30px;" >
+                        <td></td>
+                        <td>Firma y Llevatelo</td>
+                        <td>ENRIQUE SANCHEZ </td>
+                        <td>CrossFox</td>
+                        <td>Lessing</td>
+                        <td>CONCESIONARIA DE PRUEBAS</td>
+                        <td>VENDEDOR DE PCS</td>
+                        <td>2010-03-01 14:30:03</td>
+                    </tr></tbody><thead><tr><td colspan='8'>Total de : 12</td></tr></thead></table>

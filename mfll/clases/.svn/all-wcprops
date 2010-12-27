@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/crm-prospeccion/!svn/ver/1620/trunk/mfll/clases
+END
+Carga_Prospectos_SPVW.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/525/trunk/mfll/clases/Carga_Prospectos_SPVW.class.php
+END
+Carga_Prospectos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/525/trunk/mfll/clases/Carga_Prospectos.class.php
+END
+Carga_Eventos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/524/trunk/mfll/clases/Carga_Eventos.class.php
+END
+Carga_Prospectos_SPVW_BD.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/533/trunk/mfll/clases/Carga_Prospectos_SPVW_BD.class.php
+END
+Envia_Prospectos_SPVW.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/1620/trunk/mfll/clases/Envia_Prospectos_SPVW.class.php
+END
+Carga_Prospectos_SPVW_origrinal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/crm-prospeccion/!svn/ver/533/trunk/mfll/clases/Carga_Prospectos_SPVW_origrinal.class.php
+END

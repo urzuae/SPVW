@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/crm-prospeccion/!svn/ver/1636/trunk/admin/Monitoreo
+END
+crea_filtro.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/crea_filtro.php
+END
+regresa_filtros.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/1636/trunk/admin/Monitoreo/regresa_filtros.php
+END
+monitoreo_prospecto_vendedor_reasignado.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/monitoreo_prospecto_vendedor_reasignado.php
+END
+monitoreo_concesionarias.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/346/trunk/admin/Monitoreo/monitoreo_concesionarias.php
+END
+llamada_ro.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/696/trunk/admin/Monitoreo/llamada_ro.php
+END
+monitoreo_vendedor_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Monitoreo/monitoreo_vendedor_concesionaria.php
+END
+monitoreo_prospecto_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Monitoreo/monitoreo_prospecto_vendedor.php
+END
+seguimiento_prospectos_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/343/trunk/admin/Monitoreo/seguimiento_prospectos_vendedor.php
+END
+monitoreo_tasa_de_conversion.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/1636/trunk/admin/Monitoreo/monitoreo_tasa_de_conversion.php
+END
+seguimiento_concesionaria_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/crm-prospeccion/!svn/ver/343/trunk/admin/Monitoreo/seguimiento_concesionaria_prospectos.php
+END
+monitoreoHorasRetrasoYCompromiso.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/monitoreoHorasRetrasoYCompromiso.php
+END
+seguimiento_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/1081/trunk/admin/Monitoreo/seguimiento_prospectos.php
+END
+templateVehiculo.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/79/trunk/admin/Monitoreo/templateVehiculo.php
+END
+monitoreo_prospectos_reasignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm-prospeccion/!svn/ver/353/trunk/admin/Monitoreo/monitoreo_prospectos_reasignados.php
+END
+monitoreo_concesionarias_reasignacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/monitoreo_concesionarias_reasignacion.php
+END
+monitoreo_vendedor_concesionaria_reasignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/monitoreo_vendedor_concesionaria_reasignados.php
+END
+formato_salida_datos.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/343/trunk/admin/Monitoreo/formato_salida_datos.php
+END
+templateFiltros.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Monitoreo/templateFiltros.php
+END
+seguimiento_prospectos_por_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/crm-prospeccion/!svn/ver/343/trunk/admin/Monitoreo/seguimiento_prospectos_por_vendedor.php
+END
+genera_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Monitoreo/genera_excel.php
+END
+datos_peronales.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Monitoreo/datos_peronales.php
+END
+monitoreo_prospectos_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Monitoreo/monitoreo_prospectos_vendedor.php
+END
+monitoreo_prospectos_asignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/476/trunk/admin/Monitoreo/monitoreo_prospectos_asignados.php
+END
+ajax_calcula_tiempo.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/ajax_calcula_tiempo.php
+END
+monitoreo_concesionarias_asignacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/crm-prospeccion/!svn/ver/338/trunk/admin/Monitoreo/monitoreo_concesionarias_asignacion.php
+END
+crea_filtro_vehiculo.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/331/trunk/admin/Monitoreo/crea_filtro_vehiculo.php
+END

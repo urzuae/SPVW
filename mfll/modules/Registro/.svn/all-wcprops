@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/crm-prospeccion/!svn/ver/882/trunk/mfll/modules/Registro
+END
+funciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/626/trunk/mfll/modules/Registro/funciones.php
+END
+firma.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/664/trunk/mfll/modules/Registro/firma.php
+END
+genera_tabla.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/626/trunk/mfll/modules/Registro/genera_tabla.php
+END
+registro_clientes.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/626/trunk/mfll/modules/Registro/registro_clientes.php
+END
+manejalo.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/626/trunk/mfll/modules/Registro/manejalo.php
+END

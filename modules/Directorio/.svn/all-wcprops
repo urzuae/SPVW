@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/crm-prospeccion/!svn/ver/1672/trunk/modules/Directorio
+END
+filtroFuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/380/trunk/modules/Directorio/filtroFuentes.php
+END
+visualiza_modelos.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/218/trunk/modules/Directorio/visualiza_modelos.php
+END
+ajax-municipios-concesionarias.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/ajax-municipios-concesionarias.php
+END
+filtroVehiculo.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/409/trunk/modules/Directorio/filtroVehiculo.php
+END
+ajax-cp_municipio.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/ajax-cp_municipio.php
+END
+ajax-municipios.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/ajax-municipios.php
+END
+TransmisionSeleccionada.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/105/trunk/modules/Directorio/TransmisionSeleccionada.php
+END
+InsertVehiculo.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/278/trunk/modules/Directorio/InsertVehiculo.php
+END
+ajax-codigo_campana.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/ajax-codigo_campana.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/index.php
+END
+contacto.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/1672/trunk/modules/Directorio/contacto.php
+END
+asignar_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/asignar_vendedor.php
+END
+ajax-cp_colonias.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/ajax-cp_colonias.php
+END
+Consulta_cp.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/315/trunk/modules/Directorio/Consulta_cp.php
+END
+contacto_finalizado.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/359/trunk/modules/Directorio/contacto_finalizado.php
+END
+ActualizaVehiculo.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/105/trunk/modules/Directorio/ActualizaVehiculo.php
+END
+EliminaVehiculo.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/105/trunk/modules/Directorio/EliminaVehiculo.php
+END
+VersionSeleccionada.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/105/trunk/modules/Directorio/VersionSeleccionada.php
+END
+seleccionar_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/crm-prospeccion/!svn/ver/782/trunk/modules/Directorio/seleccionar_concesionaria.php
+END
+ajax-origen2.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/ajax-origen2.php
+END
+ajax-contacto_repetido.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/1587/trunk/modules/Directorio/ajax-contacto_repetido.php
+END
+mini_contacto.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/mini_contacto.php
+END
+agregar_a_campana.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Directorio/agregar_a_campana.php
+END

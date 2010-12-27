@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><script></script></head><body>
+<script>
+function del(status_id,nombre)
+{
+if (confirm("Está seguro de que desea borrar el status "+nombre))
+{
+location.href="index.php?_module=$_module&_op=$_op&campana_id=$campana_id&del="+status_id;
+}
+else return false;
+}
+</script><div style="text-align: center;"><h1>Status
+de llamadas $done</h1>$table_status<br><br>Agregar el
+siguiente status:<br><form method="get" action="index.php" name="add"><input name="_op" value="$_op" type="hidden">
+<input name="_module" value="$_module" type="hidden"><input name="campana_id" value="$campana_id" type="hidden"><input name="nombre" onblur=""><input name="add" value="Agregar" type="submit" accesskey="a"><br></form>
+<input value="Aceptar (1/4)" onclick="location.href='index.php?_module=$_module&_op=saludo&campana_id=$campana_id'" type="button"><input value="Regresar" onclick="location.href='index.php?_module=$_module&_op=campana&campana_id=$campana_id'" type="button"></div></body></html>

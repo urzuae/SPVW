@@ -1,0 +1,112 @@
+  <body>
+    <script>
+        function restablecer_fechas()
+        {
+            document.getElementById('fecha_ini').value='0000-00-00 00:00:00';
+            document.getElementById('fecha_fin').value='0000-00-00 00:00:00';
+        }
+        function update_fecha_fin(cal)
+		{
+		  //checamos si es mayor la ini que la fin y cambiar el fin
+		  var fecha_fin = document.getElementById('fecha_fin').value;
+		  if (fecha_fin == '') return false;
+		  var guion_1 = fecha_fin.indexOf('-');
+		  var guion_2 = fecha_fin.indexOf('-', guion_1 + 1);
+		  var guion_3 = fecha_fin.length;//fecha_fin.indexOf('-', guion_2 + 1);
+		  var fin_d = fecha_fin.substring(0, guion_1);
+		  var fin_m = fecha_fin.substring(guion_1 + 1, guion_2);
+		  var fin_y = fecha_fin.substring(guion_2 + 1, guion_3);
+		  var fin  = new Date(fin_y, fin_m - 1, fin_d);
+		  var ini  = new Date(cal.date.getFullYear(), cal.date.getMonth(), cal.date.getDate());
+		  if (ini.getTime() > fin.getTime())
+		  {
+		   document.getElementById('fecha_fin').value = cal.date.print('%Y-%m-%d');
+		  }
+		}
+
+		function update_fecha_ini(cal)
+		{
+		  //checamos si es mayor la ini que la fin y cambiar el fin
+		  var fecha_ini = document.getElementById('fecha_ini').value;
+		  if (fecha_ini == '') return false;
+		  var guion_1 = fecha_ini.indexOf('-');
+		  var guion_2 = fecha_ini.indexOf('-', guion_1 + 1);
+		  var guion_3 = fecha_ini.length;//fecha_ini.indexOf('-', guion_2 + 1);
+		  var ini_d = fecha_ini.substring(0, guion_1);
+		  var ini_m = fecha_ini.substring(guion_1 + 1, guion_2);
+		  var ini_y = fecha_ini.substring(guion_2 + 1, guion_3);
+		  var ini  = new Date(ini_y, ini_m - 1, ini_d);
+		  var fin  = new Date(cal.date.getFullYear(), cal.date.getMonth(), cal.date.getDate());
+		  if (ini.getTime() > fin.getTime())
+		  {
+		   document.getElementById('fecha_ini').value = cal.date.print('%Y-%m-%d');
+		  }
+		}
+        </script>
+    <script type="text/javascript" src="$_themedir/jquery/crm_catalogo_fuentes.js"></script>
+        <table width="40%" id="updateFont" align="center" border="0">
+        <thead>
+            <th colspan="3">Editar Fuente</th>
+        </thead>
+        <tbody>
+            <tr height="10"><td></td><td></td></tr>
+            <tr>
+            <td colspan="2" align="center" valign="top">Acciones:&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="addFont" type="image" src="../img/backup/new.png">
+                    <input id="saveFont" type="image" src="../img/save.png">
+                    <input id="deleteFont" type="image" src="../img/backup/del.png">
+                    <input id="updFont" type="image" src="../img/lock.gif" width="16" height="16">
+                    <input id="upddesFont" type="image" src="../img/desbloquea.jpg" width="16" height="16">
+                    <input type="hidden" name="flagAddChild" id="flagAddChild" value="">
+                </td>
+            </tr>
+            <tr height="10"><td></td><td></td></tr>
+            <tr class="padre">
+                <td>Nombre de la Fuente<input type="hidden" value="$fuente_id" id="idFuente" name="padre_id"></td>
+                <td><input type="text" class="required" value="$nombre" id="nombreFuente" name="nombreFuente"></td>
+            </tr>
+            <tr>
+                <td>Fecha Inicio</td>
+                <td>
+                    <input type="text" class="required" value="$fecha_ini" id="fecha_ini" name="fecha_ini" style="border:1px solid #cdcdcd">
+                    <img src="../img/calendar.gif" id="f_trigger_i" style="border: 1px solid white; cursor: pointer;" title="Fecha" onmouseover="this.style.background='white';" onmouseout="this.style.background=''">
+                        <script>
+                            Calendar.setup(
+                            {
+                                inputField :'fecha_ini',
+                                ifFormat      : '%Y-%m-%d %H:%M:00',
+                                showsTime     : true,
+                                onUpdate : update_fecha_fin,
+                                button : 'f_trigger_i'
+                            });
+                        </script>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Fecha Concluye</td>
+                <td>
+                    <input type="text" class="required" value="$fecha_fin" id="fecha_fin" name="fecha_fin" style="border:1px solid #cdcdcd">
+                    <img src="../img/calendar.gif" id="f_trigger_c" style="border: 1px solid white; cursor: pointer;" title="Fecha" onmouseover="this.style.background='white';" onmouseout="this.style.background=''">
+        			<script>
+                    	Calendar.setup(
+                        {
+                            inputField :'fecha_fin',
+                            ifFormat      : '%Y-%m-%d %H:%M:00',
+                            showsTime     : true,
+                            onUpdate : update_fecha_ini,
+                            button : 'f_trigger_c'
+                        });
+                    </script>
+                </td>
+            </tr>
+            <tr height="10"><td></td><td></td></tr>
+            <tr height="10">
+                <td colspan="2" align="center">
+                    <input type="button" name="restablecer" value="Restablecer Fecha" onclick="restablecer_fechas();">
+                    <input type="button" name="regresar" value="Regresar a Fuentes" onclick="location='index.php?_module=Catalogos&_op=mostrarArbol'">
+                </td>
+           </tr>
+        </tbody>
+    </table>
+  </body>

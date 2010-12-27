@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title></title>
+  <meta content="">
+  <style>
+  </style>
+  <link rel="stylesheet" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" type="text/css">
+</head>
+<body>
+  <form method="post" action="index.php" name="contacto" onchange="capsall(this);">
+    <script>
+function capsall(theForm)
+{
+  var els = theForm.elements; for(i=0; i<els.length; i++)
+  {
+    switch(els[i].type)
+    {
+      case "text":
+      if (els[i].name == "email") break;
+      els[i].value= els[i].value.toUpperCase();
+      break;
+      /*case "textarea":
+      if (els[i].name == "email") break;
+      els[i].value= els[i].value.toUpperCase();
+      break;*/
+    }
+  }
+}
+    </script>
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <h1>Criterios de emails de la campa&ntilde;a&nbsp;$campana $status_busqueda</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Seleccione quienes ser&aacute;n los objetivos de la campa&ntilde;a. $cuantos_contactos
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input name="campana_id" value="$campana_id" type="hidden"><input name="_module" value="$_module" type="hidden"><input name="_op" value="$_op" type="hidden"><input name="contacto_id" value="$contacto_id" type="hidden">
+            <table class="width100" border="0" cellpadding="2" cellspacing="2">
+              <thead>
+              <tr>
+                <td colspan="4">
+                  <img alt="" src="../img/personal.gif">Contacto
+                </td>
+              </tr>
+            </thead>
+              <tbody>
+                <tr class="row1">
+                  <td style="text-align: right;">
+                    Compa&ntilde;ia
+                  </td>
+                  <td width="40%">
+                    <input class="width100" name="compania" value="$compania">
+                  </td>
+                  <td style="text-align: right;">&nbsp;Cargo
+                  </td>
+                  <td>
+                    <input class="width100" name="cargo" value="$cargo">
+                  </td>
+                </tr>
+              </tbody>
+              <thead>
+              <tr>
+                <td colspan="4" rowspan="1">
+                  <img alt="" src="../img/home.gif">Domicilio
+                </td>
+              </tr>
+            </thead>
+              <tbody>
+                <tr class="row2">
+                  <td style="text-align: right;">
+                    Colonia
+                  </td>
+                  <td>
+                    <input class="width100" name="colonia" value="$colonia">
+                  </td>
+                  <td style="text-align: right;">
+                    C. P.
+                  </td>
+                  <td>
+                    <input maxlength="5" size="5" name="cp" value="$cp">
+                  </td>
+                </tr>
+                <tr class="row1">
+                  <td style="text-align: right;">
+                    Delaci&oacute;n/Mun.
+                  </td>
+                  <td>
+                    <input class="width100" name="poblacion" value="$poblacion">
+                  </td>
+                  <td style="text-align: right;">Entidad
+                  </td>
+                  <td>
+                    $select_entidades
+                  </td>
+                </tr>
+              </tbody>
+              <thead>
+              <tr>
+                <td colspan="4" rowspan="1">
+                  <img alt="" src="../img/more.gif"> Mas
+                </td>
+              </tr>
+            </thead>
+              <tbody>
+                <tr class="row2">
+                  <td style="text-align: right;">
+                    Edad
+                  </td>
+                  <td colspan="3" rowspan="1">
+                    Desde <input maxlength="5" size="5" name="edad_desde" value="$edad_desde"> hasta&nbsp;<input maxlength="5" size="5" name="edad_hasta" value="$edad_hasta">
+                  </td>
+                </tr>
+                <tr class="row1">
+                  <td style="text-align: right;">
+                    Nota
+                  </td>
+                  <td colspan="3" rowspan="1">
+                    <textarea class="width100" cols="10" rows="10" name="nota">$nota</textarea>
+                  </td>
+                </tr>
+                <tr class="row2">
+                  <td style="text-align: center;" colspan="4" rowspan="1">
+                    <input value="Buscar" name="submit" type="submit" accesskey="b">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr class="" align="center">
+          <td>
+            $tabla_contactos
+          </td>
+        </tr>
+        <tr class="" align="center">
+          <td>
+            $paginacion_contactos
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <input name="guardar" value="Guardar" $guardar_disabled type="submit" accesskey="a">
+            <input value="Aceptar (2/2)" onclick="location.href='index.php?_module=$_module&_op=email_send&campana_id=$campana_id'" type="button">
+            <input value="Reiniciar" onclick="location.href='index.php?_module=$_module&_op=$_op&campana_id=$campana_id&reset=1'" type="button">
+            <input value="Regresar" onclick="location.href='index.php?_module=$_module&_op=email_editor&campana_id=$campana_id'" type="button">
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+  </form>
+</body></html>

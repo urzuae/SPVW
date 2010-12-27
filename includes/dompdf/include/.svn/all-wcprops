@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include
+END
+dompdf.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/dompdf.cls.php
+END
+null_positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/null_positioner.cls.php
+END
+null_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/null_frame_decorator.cls.php
+END
+dompdf_exception.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/dompdf_exception.cls.php
+END
+page_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/page_frame_decorator.cls.php
+END
+abstract_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/abstract_renderer.cls.php
+END
+gd_adapter.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/gd_adapter.cls.php
+END
+positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/positioner.cls.php
+END
+table_row_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_row_frame_reflower.cls.php
+END
+inline_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/inline_frame_reflower.cls.php
+END
+tcpdf_adapter.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/tcpdf_adapter.cls.php
+END
+style.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/style.cls.php
+END
+table_cell_positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_cell_positioner.cls.php
+END
+table_cell_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_cell_frame_decorator.cls.php
+END
+inline_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/inline_renderer.cls.php
+END
+block_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/block_frame_reflower.cls.php
+END
+cpdf_adapter.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/cpdf_adapter.cls.php
+END
+attribute_translator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/attribute_translator.cls.php
+END
+generated_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/generated_frame_reflower.cls.php
+END
+block_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/block_renderer.cls.php
+END
+stylesheet.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/stylesheet.cls.php
+END
+null_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/null_frame_reflower.cls.php
+END
+list_bullet_positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/list_bullet_positioner.cls.php
+END
+list_bullet_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/list_bullet_frame_decorator.cls.php
+END
+frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/frame_reflower.cls.php
+END
+pdflib_adapter.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/pdflib_adapter.cls.php
+END
+list_bullet_image_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/list_bullet_image_frame_decorator.cls.php
+END
+text_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/text_frame_reflower.cls.php
+END
+table_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_frame_decorator.cls.php
+END
+table_cell_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_cell_frame_reflower.cls.php
+END
+image_cache.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/image_cache.cls.php
+END
+table_row_group_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_row_group_frame_decorator.cls.php
+END
+table_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_frame_reflower.cls.php
+END
+renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/renderer.cls.php
+END
+php_evaluator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/php_evaluator.cls.php
+END
+text_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/text_renderer.cls.php
+END
+table_cell_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_cell_renderer.cls.php
+END
+cellmap.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/cellmap.cls.php
+END
+dompdf_internal_exception.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/dompdf_internal_exception.cls.php
+END
+frame.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/frame.cls.php
+END
+font_metrics.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/font_metrics.cls.php
+END
+frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/frame_decorator.cls.php
+END
+image_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/image_frame_decorator.cls.php
+END
+text_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/text_frame_decorator.cls.php
+END
+functions.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/functions.inc.php
+END
+list_bullet_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/list_bullet_frame_reflower.cls.php
+END
+cached_pdf_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/cached_pdf_decorator.cls.php
+END
+list_bullet_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/list_bullet_renderer.cls.php
+END
+table_row_group_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_row_group_frame_reflower.cls.php
+END
+frame_tree.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/frame_tree.cls.php
+END
+canvas.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/canvas.cls.php
+END
+frame_factory.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/frame_factory.cls.php
+END
+table_row_positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_row_positioner.cls.php
+END
+inline_positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/inline_positioner.cls.php
+END
+table_row_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/table_row_frame_decorator.cls.php
+END
+inline_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/inline_frame_decorator.cls.php
+END
+page_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/page_frame_reflower.cls.php
+END
+page_cache.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/page_cache.cls.php
+END
+image_frame_reflower.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/image_frame_reflower.cls.php
+END
+canvas_factory.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/canvas_factory.cls.php
+END
+block_positioner.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/block_positioner.cls.php
+END
+block_frame_decorator.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/block_frame_decorator.cls.php
+END
+image_renderer.cls.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/dompdf/include/image_renderer.cls.php
+END

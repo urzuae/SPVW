@@ -1,0 +1,39 @@
+<script type="text/javascript" src="$_themedir/jquery/crm_monitoreo_filtros.js"></script>
+<script type="text/javascript" src="$_themedir/jquery/crm_monitoreo_asignacion_main.js"></script>
+<script type="text/javascript" src="$_themedir/jquery/crm_edit_fuentes.js"></script>
+<form  name="reubicar" method="get" action="$PHP_SELF">
+        <input type="hidden" name="_module" value="$_module">
+        <input type="hidden" name="_op" value="$_op">
+        <table width="100%" align="center" border="0">
+            <tr>
+                <td align="center">
+                    <h1>Buscar de fuente</h1>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                <table width='60%' align='center' border='0'>
+                    <thead>
+                        <tr>
+                            <td colspan='3' align="center">
+                                Favor de Seleccionar el nivel de la concesionaria que desee
+                            </td>
+                        </tr>
+                    </thead>
+                    <tr class="row1">
+                        <td>Fuente Padre</td>
+                        <td>$select_origenPadre</td>
+                        <td><input type="submit" name="buscar_fuentes" id="buscar_fuentess" value="Buscar Fuentes"></td>
+                    </tr>
+                   </table>
+                    <br>
+                    <table width="80%" align="center">
+                        <tr>
+                            <td>$buffer</td>
+                        </tr>
+                    </table>
+                    <tr>
+                </td>
+            </tr>
+        </table><br>
+    </form>

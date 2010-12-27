@@ -1,0 +1,132 @@
+<body>
+<script>
+function validate(f)
+{
+    if (f.nombre.value == "" || f.res_nombre.value == "" || f.$res_paterno.value == "")
+    {
+        alert("Debe de proporcionar todos los datos");
+        return false;
+    }
+    return true;
+}
+</script>
+<form onchange="capsall(this);" name="new" action="index.php" method="post" onsubmit="return validate(this);">
+    <input name="_module" value="Eventos" type="hidden">
+    <input name="_op" value="new" type="hidden">
+  <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="1">
+      <tr>
+          <td width="50%" align="center" valign="top">
+            <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="1">
+            <tbody>
+            <tr class="row1" height="50">
+                <td colspan="2"><span class="title">Datos del Evento</span></td>
+            </tr>
+            <tr>
+                <td>Nombre del evento</td>
+                <td><input name="nombre"  maxlength="40" class="texto" onblur="check_chars(this, ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789');caps1(this)"></td>
+            </tr>
+            <tr>
+                <td>Localizaci&oacute;n Geogr&aacute;fica</td>
+                <td>
+                    <textarea name="domicilio" class="texto_area"></textarea></td>
+            </tr>
+            <tr>
+                <td>Fecha de Inicio</td>
+                <td>
+                    <input id="cal-field-1" name="fecha_ini" value="" class="texto_fechas" style="background-color:#ffffff;border:1px solid #cdcdcd;color:#000000;" readonly/>
+                    <button  id="cal-button-1" class="btnac"></button>
+                    <script type='text/javascript'>
+                        Calendar.setup({
+                        inputField    : 'cal-field-1',
+                        ifFormat      : '%Y-%m-%d',
+                        showsTime     : false,
+                        button        : 'cal-button-1'});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td>Fecha de T&eacute;rmino</td>
+                <td>
+                    <input type="text" id="cal-field-2"  name="fecha_fin" value="" class="texto_fechas" style="background-color:#ffffff;border:1px solid #cdcdcd;color:#000000;" readonly/>
+                    <button  id="cal-button-2" class="btnac"></button>
+                    <script type='text/javascript'>
+                        Calendar.setup({
+                        inputField    : 'cal-field-2',
+                        ifFormat      : '%Y-%m-%d',
+                        showsTime     : false,
+                        button        : 'cal-button-2'});
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td>Horario del evento</td>
+                <td><input name="horario"  maxlength="40" class="texto"></td>
+            </tr>
+            <tr>
+                <td>Costo del evento</td>
+                <td><input name="costo"  maxlength="40" class="texto"></td>
+            </tr>
+            <tr class="row1" height="50">
+                <td colspan="2"><span class="title">Datos del Responsable</span></td>
+            </tr>
+            <tr>
+                <td>Nombre del Responsable</td>
+                <td><input name="res_nombre"  maxlength="40" class="texto"></td>
+            </tr>
+            <tr>
+                <td>Apellido Paterno del Responsable</td>
+                <td><input name="res_paterno"  maxlength="40" class="texto"></td>
+            </tr>
+            <tr>
+                <td>Apellido Materno del Responsable</td>
+                <td><input name="res_materno"  maxlength="40" class="texto"></td>
+            </tr>
+            <tr class="row1">
+                <td colspan="2">Concesionarias Participantes</td>
+            </tr>
+                <tr class="row1">
+                <td colspan="2">$concesionarias_participantes</td>
+            </tr>
+            <tr class="row1">
+                <td colspan="2">Vendedores Participantes</td>
+            </tr>
+            <tr class="row1">
+                <td colspan="2">$vendedores_participantes
+                    <input name="gids" id="gids" value="" type="hidden">
+                    <input name="uids" id="uids" value="" type="hidden">
+                </td>
+            </tr>
+            <tr class="">
+                <td rowspan="1" colspan="2" align="center"><input value="Crear Evento" name="submit" id="submit" type="submit"></td>
+            </tr>
+            </table>
+          </td>
+          <td width="50%" align="center" valign="top">
+            <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="1">
+            <tbody>
+            <tr class="row1" height="50">
+                <td colspan="2"><span class="title">Concesionarias</span></td>
+            </tr>
+            <tr>
+                <td colspan="2">Para seleccionar alguna concesionaria, favor de dar doble click en el nombre </td>
+            </tr>
+            <tr>
+                <td colspan="2">$concesionarias_existentes</td>
+            </tr>
+            <tr>
+                <td colspan="2">Para seleccionar alg&uacute;n vendedor, favor de dar doble click en el nombre </td>
+            </tr>
+            <tr>
+                <td colspan="2">$vendedores_existentes</td>
+            </tr>
+
+            </table>
+          </td>
+      </tr>
+      <tr class="row1">
+          <td colspan="2" align="center">$leyenda</td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</body>

@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+<center>
+<h1>Enero</h1>
+<img src="$_htmldir/g1.gif"><br><br>
+<img src="$_htmldir/g2.gif"><br><br>
+</center>
+  </body>
+</html>

@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/crm-prospeccion/!svn/ver/1812/trunk/modules/Gerente
+END
+funciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/funciones.php
+END
+monitoreo_vendedores.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/1799/trunk/modules/Gerente/monitoreo_vendedores.php
+END
+_monitoreo_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/_monitoreo_prospectos.php
+END
+monitoreo_vendedor_reasignar.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/monitoreo_vendedor_reasignar.php
+END
+xlsFunctions.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/xlsFunctions.php
+END
+graficasconcesionarias.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/graficasconcesionarias.php
+END
+monitoreo_tasa_de_conversion.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/1638/trunk/modules/Gerente/monitoreo_tasa_de_conversion.php
+END
+graficasfases.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/graficasfases.php
+END
+monitoreo_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/838/trunk/modules/Gerente/monitoreo_vendedor.php
+END
+monitoreo_vendedor_reporte.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/monitoreo_vendedor_reporte.php
+END
+callcenter_asignar_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/callcenter_asignar_vendedor.php
+END
+filtro_fechas.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/filtro_fechas.php
+END
+usuarios.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/usuarios.php
+END
+monitoreo.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/monitoreo.php
+END
+filtro_busquedas.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/filtro_busquedas.php
+END
+EliminaVenta.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/304/trunk/modules/Gerente/EliminaVenta.php
+END
+construye_grafica_p.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/495/trunk/modules/Gerente/construye_grafica_p.php
+END
+monitoreo_tasa_de_conversion_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/crm-prospeccion/!svn/ver/1634/trunk/modules/Gerente/monitoreo_tasa_de_conversion_vendedor.php
+END
+usuario.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/1258/trunk/modules/Gerente/usuario.php
+END
+ajax-contacto_vtas.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/69/trunk/modules/Gerente/ajax-contacto_vtas.php
+END
+carga_contactos.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/1812/trunk/modules/Gerente/carga_contactos.php
+END
+blanco.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/blanco.png
+END
+csv_errores.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/csv_errores.php
+END
+monitoreo_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/1257/trunk/modules/Gerente/monitoreo_prospectos.php
+END
+monitoreo_alta_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/monitoreo_alta_prospectos.php
+END
+contactos.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/1005/trunk/modules/Gerente/contactos.php
+END
+genera_db_fuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/1633/trunk/modules/Gerente/genera_db_fuentes.php
+END
+cambio_usuario.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/cambio_usuario.php
+END
+contacto_cancelar.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/1380/trunk/modules/Gerente/contacto_cancelar.php
+END
+regresa_etapa.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/976/trunk/modules/Gerente/regresa_etapa.php
+END
+reporte_reasignacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/reporte_reasignacion.php
+END
+class_autorizado.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/16/trunk/modules/Gerente/class_autorizado.php
+END
+regresa_vendedores.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/regresa_vendedores.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/842/trunk/modules/Gerente/index.php
+END
+grafico.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/grafico.png
+END
+construye_grafica.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/501/trunk/modules/Gerente/construye_grafica.php
+END
+ajax-contacto_tiempo.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/ajax-contacto_tiempo.php
+END
+actualiza_venta.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/980/trunk/modules/Gerente/actualiza_venta.php
+END
+ActualizaVenta.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/304/trunk/modules/Gerente/ActualizaVenta.php
+END
+consultas.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/consultas.php
+END
+reasignar.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/1379/trunk/modules/Gerente/reasignar.php
+END
+regresa_tipo_pagos.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/regresa_tipo_pagos.php
+END
+grafica_fases.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/grafica_fases.php
+END
+monitoreo_prospectos1.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/monitoreo_prospectos1.php
+END
+graficas.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/494/trunk/modules/Gerente/graficas.php
+END
+genera_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Gerente/genera_excel.php
+END
+administracion_vendedores.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/crm-prospeccion/!svn/ver/304/trunk/modules/Gerente/administracion_vendedores.php
+END

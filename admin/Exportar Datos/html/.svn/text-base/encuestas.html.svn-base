@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <input><input><title>edit</title>
+  <meta content="">
+  <style>
+  </style>
+  <link type="text/css" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" rel="stylesheet">
+</head>
+<body>
+  <!--<span class="title">$msg</span>-->
+  <script>
+function delEncuesta(id,name)
+{
+  if (confirm('Esta seguro que desea borrar la encuesta: '+name)) location.href=('index.php?_module=$_module&del='+id);
+}
+function validate(f)
+{
+  return true;
+}
+  </script>
+  <h1>$_module</h1>
+  $error
+  $tabla_encuestas
+
+</body>
+</html>
+

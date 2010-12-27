@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses
+END
+fck_othercommands.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fck_othercommands.js
+END
+fcktextcolorcommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fcktextcolorcommand.js
+END
+fcknamedcommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fcknamedcommand.js
+END
+fckpasteplaintextcommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fckpasteplaintextcommand.js
+END
+fckspellcheckcommand_gecko.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fckspellcheckcommand_gecko.js
+END
+fcktablecommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fcktablecommand.js
+END
+fckpastewordcommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fckpastewordcommand.js
+END
+fckspellcheckcommand_ie.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fckspellcheckcommand_ie.js
+END
+fckstylecommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/fckeditor/editor/_source/commandclasses/fckstylecommand.js
+END

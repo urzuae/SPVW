@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <title>Planes de Accion</title>
+    <meta content="">
+    <link type="text/css" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" rel="stylesheet">
+    <style></style>
+  </head>
+  <body>
+    <h1>Historial de Planes de Accion</h1>
+    <form action="index.php" method="post">
+      <input type="hidden" name="_module" value="$_module">
+      <input type="hidden" name="_op" value="$_op">
+      <center>
+        <table>
+          <thead>
+            <tr>
+              <td colspan="2">Planes de Accion</td>
+            </tr>
+          </thead>
+            <tr class="row1">
+              <td style="width:100px;">Fecha de inicio</td>
+              <td style="width:200px;"><input name="fecha_ini" id="fecha_ini" value="$fecha_ini"><img src="img/calendar.gif" id="f_trigger_c" style="border: 1px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''"></td>
+            </tr>
+<script>
+function update_fecha_fin(cal)
+{
+  //checamos si es mayor la ini que la fin y cambiar el fin
+  var fecha_fin = document.getElementById("fecha_fin").value;
+  if (fecha_fin == '') return false;
+  var guion_1 = fecha_fin.indexOf("-");
+  var guion_2 = fecha_fin.indexOf("-", guion_1 + 1);
+  var guion_3 = fecha_fin.length;//fecha_fin.indexOf("-", guion_2 + 1);
+  var fin_d = fecha_fin.substring(0, guion_1);
+  var fin_m = fecha_fin.substring(guion_1 + 1, guion_2);
+  var fin_y = fecha_fin.substring(guion_2 + 1, guion_3);
+  var fin  = new Date(fin_y, fin_m - 1, fin_d);
+  var ini  = new Date(cal.date.getFullYear(), cal.date.getMonth(), cal.date.getDate());
+  if (ini.getTime() > fin.getTime())
+  {
+   document.getElementById("fecha_fin").value = cal.date.print("%d-%m-%Y");
+  }
+}
+
+function update_fecha_ini(cal)
+{
+  //checamos si es mayor la ini que la fin y cambiar el fin
+  var fecha_ini = document.getElementById("fecha_ini").value;
+  if (fecha_ini == '') return false;
+  var guion_1 = fecha_ini.indexOf("-");
+  var guion_2 = fecha_ini.indexOf("-", guion_1 + 1);
+  var guion_3 = fecha_ini.length;//fecha_ini.indexOf("-", guion_2 + 1);
+  var ini_d = fecha_ini.substring(0, guion_1);
+  var ini_m = fecha_ini.substring(guion_1 + 1, guion_2);
+  var ini_y = fecha_ini.substring(guion_2 + 1, guion_3);
+  var ini  = new Date(ini_y, ini_m - 1, ini_d);
+  var fin  = new Date(cal.date.getFullYear(), cal.date.getMonth(), cal.date.getDate());
+  if (ini.getTime() > fin.getTime())
+  {
+   document.getElementById("fecha_ini").value = cal.date.print("%d-%m-%Y");
+  }
+}
+Calendar.setup(
+{
+  inputField :"fecha_ini",
+  ifFormat :"%d-%m-%Y",
+  onUpdate : update_fecha_fin,
+  button : "f_trigger_c"
+}
+);
+</script>
+<tr class="row1">
+  <td>Fecha de fin</td>
+  <td><input name="fecha_fin" id="fecha_fin" value="$fecha_fin"><img src="img/calendar.gif" id="f_trigger_d" style="border: 1px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''"></td>
+</tr>
+<script>
+Calendar.setup(
+{
+  inputField :"fecha_fin",
+  ifFormat :"%d-%m-%Y",
+  onUpdate : update_fecha_ini,
+  button : "f_trigger_d"
+}
+);
+
+</script>
+<tr class="row2">
+  <td colspan="2" align="center"><input type="submit" name="submit" value="Aceptar"><input type="button" value="Regresar" onclick="location.href='index.php?_module=$_module';"></td>
+</tr>
+</table>
+</form><br>
+</center>
+    
+    <a href="index.php?_module=$_module&_op=nuevo_plan">Nuevo Plan de Marketing</a>
+    
+    <table id="plan_list" class="tablesorter">
+      <thead>
+        <tr>
+          <th width="15%">Enviado el</th>
+          <th width="55%">Nombre</th>
+          <th width="15%">Nuevo Plan</th>
+          <th width="15%">Nuevo Reporte</th>
+        </tr>
+      </thead>
+      <tbody>
+        $plan_table
+      </tbody>
+    </table>
+  </body>
+</html>

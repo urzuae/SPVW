@@ -1,0 +1,12 @@
+<div class=title>Bienvenido al Sistema MFLL Reportes</div>
+<table>
+    <tr>
+        <td class="content" style="width:100%;">
+            $no_registrado<br><br>
+        </td>
+        <td>
+            <img src="$_htmldir/logo_mfll_fingerprint.jpg" name="imagen1">
+        </td>
+    </tr>
+</table>
+<br><br>

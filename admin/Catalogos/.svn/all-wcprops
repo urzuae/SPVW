@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/crm-prospeccion/!svn/ver/1647/trunk/admin/Catalogos
+END
+new.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/crm-prospeccion/!svn/ver/1644/trunk/admin/Catalogos/new.php
+END
+menu_derecho.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/1644/trunk/admin/Catalogos/menu_derecho.php
+END
+genera_db_fuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/1635/trunk/admin/Catalogos/genera_db_fuentes.php
+END
+concesionarias.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/691/trunk/admin/Catalogos/concesionarias.php
+END
+Component.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/799/trunk/admin/Catalogos/Component.php
+END
+mostrarArbol.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/1644/trunk/admin/Catalogos/mostrarArbol.php
+END
+fuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Catalogos/fuentes.php
+END
+actualiza.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/1647/trunk/admin/Catalogos/actualiza.php
+END
+edit_fuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/1647/trunk/admin/Catalogos/edit_fuentes.php
+END
+Compuesto.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/871/trunk/admin/Catalogos/Compuesto.php
+END
+find.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/1647/trunk/admin/Catalogos/find.php
+END
+autorizar.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/1265/trunk/admin/Catalogos/autorizar.php
+END
+admin_fuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/1644/trunk/admin/Catalogos/admin_fuentes.php
+END
+nuevaFuente.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Catalogos/nuevaFuente.php
+END
+muestra_fuente.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/871/trunk/admin/Catalogos/muestra_fuente.php
+END

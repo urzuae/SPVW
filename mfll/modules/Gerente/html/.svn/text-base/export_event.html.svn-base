@@ -1,0 +1,30 @@
+<form action="index.php?_module=Gerente&_op=export_event" name="form" method="post">
+<input type="hidden" name="_module" value="$_module">
+<table cellspacing="2" cellpadding="2" border="0" align="center" class="width80">
+    <caption><h1>$titulo</h1></caption>
+    <thead>
+        <tr class="row1">
+          <td align="left">Evento:</td>
+          <td align="left">$combo_eventos</td>
+        </tr>
+    </thead>
+    <thead>
+        <tr class="row1">
+          <td align="center" colspan="2">
+            <br><input type="submit" value="Consultar" name="submit" style="width:80px;background-color:#ffffff;border:1px solid #cdcdcd;color:#333333;font-weight:bold;"/>
+          </td>
+        </tr>
+    </thead>
+</table><br><hr color="#dddddd"><br>
+<table cellspacing="2" cellpadding="2" border="0" class="width100">
+    <tbody>
+        <tr>
+            <td valign="top" align="center">
+                <p align='center'>
+                    <span style='font-size:15px; color:#999999;'>$encabezado</span>
+                </p><br>$boton_excel<br><br>
+                $buffer</td>
+        </tr>
+    </tbody>
+</table>
+</form>

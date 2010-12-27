@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/crm-prospeccion/!svn/ver/1694/trunk/scripts
+END
+carga_contactos_nuevos.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/149/trunk/scripts/carga_contactos_nuevos.php
+END
+alarma-vendedores.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/657/trunk/scripts/alarma-vendedores.php
+END
+wget.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/wget.sh
+END
+carga_portal_empresas.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/carga_portal_empresas.php
+END
+carga_portal.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/crm-prospeccion/!svn/ver/640/trunk/scripts/carga_portal.php
+END
+busca_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/busca_email.php
+END
+elimina_prospectos_duplicados.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/673/trunk/scripts/elimina_prospectos_duplicados.php
+END
+ciclo_venta_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/1006/trunk/scripts/ciclo_venta_prospectos.php
+END
+carga_datos.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/787/trunk/scripts/carga_datos.php
+END
+monitoreo-vendedores.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/monitoreo-vendedores.php
+END
+alarma-vendedor_ori.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/264/trunk/scripts/alarma-vendedor_ori.php
+END
+actualiza_modelos_id.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/281/trunk/scripts/actualiza_modelos_id.php
+END
+finalizar_prospectos_2_meses.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/finalizar_prospectos_2_meses.php
+END
+updateReportAssignedContactForDay.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/updateReportAssignedContactForDay.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/test.php
+END
+bloquea_fuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/912/trunk/scripts/bloquea_fuentes.php
+END
+calcula_retrasos_asignacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/calcula_retrasos_asignacion.php
+END
+consulta_compromisos.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/996/trunk/scripts/consulta_compromisos.php
+END
+carga_portal_no_asignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/640/trunk/scripts/carga_portal_no_asignados.php
+END
+carga_tabla_temporal.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/112/trunk/scripts/carga_tabla_temporal.php
+END
+monitoreo-vendedores-old.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/monitoreo-vendedores-old.php
+END
+comprueba_seguimiento.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/comprueba_seguimiento.php
+END
+carga_seguimiento.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/73/trunk/scripts/carga_seguimiento.php
+END
+Agrega_modelo.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/272/trunk/scripts/Agrega_modelo.php
+END
+eliminar_prospectos_bd.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/1270/trunk/scripts/eliminar_prospectos_bd.php
+END
+script_ciclo_vta.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/1660/trunk/scripts/script_ciclo_vta.php
+END
+copia_a_vw_prueba.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/copia_a_vw_prueba.sh
+END
+cambia_tiempo.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/cambia_tiempo.php
+END
+carga_datos_autorizados.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/210/trunk/scripts/carga_datos_autorizados.php
+END
+carga_logs.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/345/trunk/scripts/carga_logs.php
+END
+load.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/load.sh
+END
+totales_carga_datos.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/720/trunk/scripts/totales_carga_datos.php
+END
+busca_fecha_importado_vacia.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/204/trunk/scripts/busca_fecha_importado_vacia.php
+END
+crear_hostess.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/crear_hostess.php
+END
+CargaFuentes.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/CargaFuentes.php
+END
+alarma-cambio_a_otra_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/alarma-cambio_a_otra_concesionaria.php
+END
+eliminar_prospectos_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/eliminar_prospectos_vendedor.php
+END
+monitoreo_contactos_reasignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/monitoreo_contactos_reasignados.php
+END
+carga_asignacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/73/trunk/scripts/carga_asignacion.php
+END
+updateReportAssignedContact.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/updateReportAssignedContact.php
+END
+aviso_asignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/aviso_asignados.php
+END
+alarma-gerente_no_ha_asignado_a_vendedores.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/alarma-gerente_no_ha_asignado_a_vendedores.php
+END
+libForHRAC.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/crm-prospeccion/!svn/ver/75/trunk/scripts/libForHRAC.php
+END
+actualiza_modelo.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/actualiza_modelo.php
+END
+contactos_sin_seguimiento.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/contactos_sin_seguimiento.php
+END
+eliminar_prospectos_portalvw.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/eliminar_prospectos_portalvw.php
+END
+calcula_tiempo_retraso.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/calcula_tiempo_retraso.php
+END
+monitoreo_contactos_asignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/monitoreo_contactos_asignados.php
+END
+reporte.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/crm-prospeccion/!svn/ver/1640/trunk/scripts/reporte.php
+END
+eliminar_prospectos.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/1694/trunk/scripts/eliminar_prospectos.php
+END
+consulta_asignacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/996/trunk/scripts/consulta_asignacion.php
+END
+ubicaciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/ubicaciones.php
+END
+eliminar_prospectos_no_aceite.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/660/trunk/scripts/eliminar_prospectos_no_aceite.php
+END
+actualiza_hrs_retraso.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/scripts/actualiza_hrs_retraso.php
+END

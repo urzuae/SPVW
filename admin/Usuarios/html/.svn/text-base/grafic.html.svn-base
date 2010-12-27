@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Uso del sistema</title>
+    <style></style>
+    <link type="text/css" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" rel="stylesheet">
+    
+
+</head>
+<body>
+<script language="Javascript" src="$_includesdir/fusion/FusionCharts.js"></script>
+<form name="form" action="index.php" method="post">
+    <input name="_module" value="$_module" type="hidden">
+    <input name="_op" value="$_op" type="hidden">
+    <input name="table" value="$table" type="hidden">
+    <table align="center" width="60%" border="0" cellpadding="2" cellspacing="1">
+    <thead>
+        <tr class="">
+            <th colspan="2" rowspan="1" align="center">Reporte de usuarios del SPVW</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="row2">
+            <td>Fecha Inicio:</td>
+            <td><input name="fecha_ini" id="fecha_ini" value="$fecha_ini"><img src="../img/calendar.gif"  id="f_trigger_c" style="border: 0px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''">
+            <script>
+                Calendar.setup({inputField :"fecha_ini",ifFormat :"%d-%m-%Y",button : "f_trigger_c"});
+            </script>
+            </td>
+        </tr>
+        <tr class="row1">
+            <td>Fecha T&eacute;rmino:</td>
+            <td><input name="fecha_fin" id="fecha_fin" value="$fecha_fin"><img src="../img/calendar.gif" id="f_trigger_d" style="border: 0px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''">
+            <script>
+                Calendar.setup({inputField :"fecha_fin",ifFormat :"%d-%m-%Y",button : "f_trigger_d"});
+            </script>
+            </td>
+        </tr>
+        <!--<tr class="row2">
+            <td>Zona</td>
+            <td>$select_zonas</td>
+        </tr>
+        <tr class="row1">
+            <td>Concesionaria</td>
+            <td>$select_groups</td>
+        </tr>-->
+        <tr class="row2">
+            <td colspan="2" rowspan="1" align="center">
+                <input value="Generar Grafico" name="submit" type="submit">
+                <input type="button" value="Cancelar" onclick="location='index.php?_module=Usuarios'">
+            </td>
+      </tr>
+    </tbody>
+  </table><br><br><br><br><br><br><br>
+  <div id="res" align="center" width="620">$grafico</div>
+</form>
+</body>
+</html>

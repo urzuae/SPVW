@@ -1,0 +1,50 @@
+<body>
+<form name="new" action="index.php" method="post" >
+    <input name="_module" value="Registro" type="hidden"><input name="_op" value="registro_clientes" type="hidden">
+  $oculto
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="1">
+    <tbody>
+      <tr class="row1">
+        <td>Nombre</td>
+        <td>$nombre_prospecto</td>
+      <tr class="row2">
+        <td>Tel&eacute;fono Casa</td>
+        <td><input class="texto_lada" maxlength="3" name="lada1" value="$lada1" onblur="check_chars(this, '0123456789');"><input class="texto" maxlength="8" name="tel_casa" value="$tel_casa" onblur="check_chars(this, '0123456789');check_min_length(this,8);"> </td>
+      </tr>
+      <tr class="row1">
+        <td>Tel&eacute;fono M&oacute;vil</td>
+        <td><input class="texto_lada" maxlength="3" name="lada3" value="$lada3" onblur="check_chars(this, '0123456789');"><input class="texto" maxlength="8" name="tel_movil" value="$tel_movil" onblur="check_chars(this, '0123456789');check_min_length(this,8);"></td>
+      </tr>
+      <tr class="row2">
+        <td>Tel&eacute;fono Otro</td>
+        <td><input class="texto_lada" maxlength="3" name="lada4" value="$lada4" onblur="check_chars(this, '0123456789');"><input class="texto" maxlength="8" name="tel_nextel" value="$tel_nextel" onblur="check_chars(this, '0123456789');check_min_length(this,8);"></td>
+      </tr>
+       <tr class="row1">
+        <td>E- mail</td>
+        <td><input name="mail" class="texto" maxlength="40"></td>
+      </tr>
+       <tr class="row2">
+          <td>Medio de contacto</td>
+           <td colspan="1">$select_medio</td>
+      </tr>
+      <tr class="row1">
+          <td>Concesionaria</td>
+         <td colspan="1">$select_concesionaria</td>
+      </tr>
+       <tr class="row2">
+          <td>Vendedor</td>
+          <td><div id="tabla">$tabla_vendedores</div></td>
+        </tr>        
+      <tr class="row1">
+        <td style="text-align: center;" colspan="6" rowspan="1">
+            <input type="submit" name="guardar" value="Guardar" class="boton_l" >
+            <input type="button" name="limpiar" value="Limpiar" class="boton_l">
+        </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">$mensaje</td>
+        </tr>
+    </tbody>
+  </table>
+</form>
+</body>

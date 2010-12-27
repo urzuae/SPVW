@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/crm-prospeccion/!svn/ver/1014/trunk/admin/Usuarios
+END
+funciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/1008/trunk/admin/Usuarios/funciones.php
+END
+new.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/991/trunk/admin/Usuarios/new.php
+END
+grafic.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/1012/trunk/admin/Usuarios/grafic.php
+END
+report.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/986/trunk/admin/Usuarios/report.php
+END
+actividades_uid.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/1012/trunk/admin/Usuarios/actividades_uid.php
+END
+actividades_gid.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/1014/trunk/admin/Usuarios/actividades_gid.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/crm-prospeccion/!svn/ver/84/trunk/admin/Usuarios/config.php
+END
+edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/84/trunk/admin/Usuarios/edit.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/1008/trunk/admin/Usuarios/index.php
+END
+visualiza_actividades.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/1012/trunk/admin/Usuarios/visualiza_actividades.php
+END

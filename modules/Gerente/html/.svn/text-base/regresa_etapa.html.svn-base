@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Contacto</title>
+  <meta content="">
+  <style></style>
+  <link type="text/css" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" rel="stylesheet">
+</head>
+<body>
+<h1>$_title</h1>
+<script>
+function validate(f)
+{
+    return true;
+}
+function alloff()
+{
+    toogleall(false);
+}
+function allon()
+{
+    toogleall(true);
+}
+function toogleall(sw)
+{
+    with(document.seleccionar)
+    {
+        for(i=0;i<elements.length;i++)
+        {
+            thiselm = elements[i];
+            //thiselm.checked = !thiselm.checked
+            thiselm.checked = sw;
+        }
+    }
+}
+
+// add parser through the tablesorter addParser method 
+$.tablesorter
+	.addParser({ 
+	        // set a unique id 
+	        id: "prioridad", 
+	        is: function(s) { 
+	            // return false so this parser is not auto detected 
+	            return false; 
+	        }, 
+	        format: function(s) { 
+	            // format your data for normalization 
+	            return s.toLowerCase().replace(/Caliente/,3).replace(/Tibio +/,2).replace(/Tibio -/,1).replace(/Frio/,0); 
+	        }, 
+	        // set type, either numeric or text 
+	        type: "numeric" 
+	}) 
+	
+$.tablesorter
+	.addParser({ 
+	        // set a unique id 
+	        id: "horas", 
+	        is: function(s) { 
+	            // return false so this parser is not auto detected 
+	            return false; 
+	        }, 
+	        format: function(s) { 
+	            // format your data for normalization 
+	            return s.toLowerCase().replace(/ hr/,""); 
+	        }, 
+	        // set type, either numeric or text 
+	        type: "numeric" 
+	}) ;
+	
+$(document).ready(function() 
+{ 
+   $("#tabla_contactos")
+    	.tablesorter({
+    		widgets: ['zebra'],
+    		headers: { 
+                2: {
+                    sorter:"prioridad" 
+                }
+            },
+    		widthFixed: true
+    		
+    	})
+});
+</script>
+$msg
+<form onchange="capsall(this);" method="post" action="index.php" name="seleccionar" >
+<input name="_module" value="$_module" type="hidden"><input name="_op" value="$_op" type="hidden">
+<input name="order" value="$order" type="hidden">
+  <table class="width100" border="0" cellpadding="2" cellspacing="2">
+    <thead><tr>
+      <td colspan="4"><img alt="" src="img/search.gif">Buscar contacto</td>
+    </tr>
+    </thead>
+    <tbody>
+        <tr class="row1">
+            <td style="width:10%;">Nombre</td>
+            <td  style="width:90%;"  colspan="3">
+                <table class="width100" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td style="width: 33%;"><input class="width100" size="10" name="nombre" value="$nombre"></td>
+                            <td style="width: 33%;"><input class="width100" size="10" name="apellido_paterno" value="$apellido_paterno" onblur="check_chars(this, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzñ ');check_min_length_not_null(this,2); caps1(this);"></td>
+                            <td style="width: 33%;"><input class="width100" size="10" name="apellido_materno" value="$apellido_materno" onblur="check_chars(this, 'ABCDEFGHIJKLMNOPQRSTUVWXYZÑabcdefghijklmnopqrstuvwxyzñ ');caps1(this);"></td>
+                        </tr>
+                    </tbody>
+                </table>
+              </td>
+        </tr>
+        <tr class="row2">
+            <td>Vendedor</td>
+            <td>$select_vendedores</td>
+            <td>Vehículo</td>
+            <td>$select_modelo</td>
+        </tr>
+        <tr class="row1">
+            <td colspan=4 align=center><input type="submit" name="submit" value="Buscar"> <input type="button" value="Regresar" onclick="location.href='index.php?_module=$_module';"> <input  type="button"  value="Limpiar" onclick="this.form.nombre.value='';this.form.apellido_paterno.value='';this.form.apellido_materno.value='';this.form.buscar_asignado.selectedIndex=0;this.form.vehiculo.selectedIndex=0;"/></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">$lista_contactos</td>
+        </tr>
+        <tr>
+            <td colspan="4" align="justify">$message</td>
+        </tr>
+    </tbody>
+  </table>
+</form>
+</body>
+</html>

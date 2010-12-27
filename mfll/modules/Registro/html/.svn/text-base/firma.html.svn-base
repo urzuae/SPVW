@@ -1,0 +1,31 @@
+<form onchange="capsall(this);" name="new" action="index.php" method="post">
+    <input name="_module" value="Registro" type="hidden">
+    <input name="_op" value="firma" type="hidden">
+  $oculto
+    <table style="text-align: left; width: 40%;" border="0" cellpadding="2" cellspacing="1">
+       <tbody>           
+      <tr class="row2">
+        <td>Nombre</td>
+        <td>$nombre_prospecto</td>
+      </tr>
+      <tr class="row1">
+        <td>Auto de Interes</td>
+        <td>$select_autos</td>
+      </tr>
+      <tr class="row2">
+         <td>Autos Manejados</td>
+         <td>$vehiculos</td>
+      </tr>
+      <tr class="row1">
+        <td>Forma de Pago</td>
+        <td>$select_pago</td>
+      </tr>
+      <tr class="row1">
+        <td style="text-align: center;" colspan="6" rowspan="1">
+        <input type="submit" name="guardar" value="Registrar" class="boton_l">
+        </td>
+      </tr>
+      </tbody>
+    </table>     
+</form>
+</body>

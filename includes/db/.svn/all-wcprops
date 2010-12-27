@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db
+END
+mysql4.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/mysql4.php
+END
+postgres7.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/postgres7.php
+END
+mssql.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/mssql.php
+END
+msaccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/msaccess.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/index.html
+END
+mssql-odbc.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/mssql-odbc.php
+END
+db.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/db.php
+END
+mysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/mysql.php
+END
+oracle.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/oracle.php
+END
+db2.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/crm-prospeccion/!svn/ver/2/trunk/includes/db/db2.php
+END

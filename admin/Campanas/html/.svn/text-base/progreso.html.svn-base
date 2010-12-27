@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <title></title>
+  <meta content="">
+
+  <style></style>
+  <link rel="stylesheet" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" type="text/css">
+</head>
+
+
+<body>
+<script>
+function del(id, title)
+{
+    var c = confirm("Esta seguro de que desea borrar completamente la campaña "+title);
+    if(c)
+        window.open("index.php?_module=$_module&_op=$_op&del="+id,'_self');
+}
+</script>
+
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td colspan="1" rowspan="1">
+      
+      <h1>Campa&ntilde;as</h1>
+
+
+      </td>
+
+
+    </tr>
+
+
+    <tr class="" align="center">
+
+
+      <td><center><form id="f"><input type="hidden" name="_module" value="$_module">Ver campañas de: $select_groups </form></center></td>
+
+
+    </tr>
+    <tr class="" align="center">
+
+
+      <td>$tabla_campanas</td>
+
+
+    </tr>
+
+
+    <tr class="" align="center">
+
+
+      <td>$paginacion_campanas</td>
+
+
+    </tr>
+
+  </tbody>
+</table>
+
+
+<br>
+
+
+</body>
+</html>

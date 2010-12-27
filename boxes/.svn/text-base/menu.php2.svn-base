@@ -1,0 +1,86 @@
+<?
+if (!defined('_IN_MAIN_INDEX')) {
+    die ("No puedes acceder directamente a este archivo...");
+}
+global $db, $_module, $_op, $_do_login,$_modulesdir;
+$uid = $_COOKIE[_uid];
+
+if ($uid)
+    list($gid) = htmlize($db->sql_fetchrow($db->sql_query("SELECT gid FROM users WHERE uid='$uid' LIMIT 1")))
+        or die ("Error al buscar el grupo");
+else
+    $gid = 0;
+
+
+//crear el menu haciendo un ls y luego komparando si tenemos axeso
+// $files_pre = opendir("$_modulesdir") or die("No se puede leer el directorio de modulos");
+// $files = array();
+// while ($file = readdir($files_pre))
+//     array_push($files, $file);
+// sort($files);
+// // Loop through the files
+// foreach ($files as $file)
+// {
+//     if (!(strpos($file, ".") === FALSE)) //si enkontramos . o .. o un .php o .* no mostrarlo
+//         continue;
+//     if (is_file("$_modulesdir/$file"))
+//         continue;
+//     $sql = "SELECT module FROM groups_accesses WHERE gid='$gid' AND module='$file'";
+//     $result = $db->sql_query($sql) 
+//         or die("Error al buscar permisos");
+//     if ($db->sql_numrows($result) > 0)
+//         $_content .= "<a href=\"index.php?_module=$file\" class=\"box_content\">$file</a><br>";
+// }
+
+$_menu .= 
+'<br>
+<a href="index.php?_module=Campanas" class="box_content">
+  Campañas
+</a>
+<br>
+<a href="index.php?_module=Directorio" class="box_content">
+  Directorio
+</a>
+<br>
+<a href="index.php?_module=Documentos de Apoyo" class="box_content">
+  Documentos de Apoyo
+</a>
+<br>
+<a href="index.php?_module=Noticias" class="box_content">
+  Noticias
+</a>
+<br>
+
+';
+
+$result = $db->sql_query("SELECT name FROM users WHERE uid='$uid'")
+    or die("Error al buscar nombre de usuario");
+list($name) = htmlize($db->sql_fetchrow($result));
+if ($name)
+{
+    $_content .= $_menu;
+    $_content .= "<br>Bienvenido <br><i>$name</i><br>\n";
+    $_content .= "<br><br><a href=\"index.php?_do_logout=1\" class=\"box_content\">Salir</a><br>\n";
+}
+else if (!$_do_login)
+{
+//     $_content .= $_menu;
+    $_content .= "\n"//<br>Entre a tu cuenta para poder ver más opciones:<br>
+        . "<form action=\"index.php\" method=post>\n"
+        . "<table>\n"
+        . "<tr><td><input type=\"hidden\" name=\"_module\" value=\"$_module\"></td></tr>"
+        . "<tr><td><input type=\"hidden\" name=\"_op\" value=\"$_op\"></td></tr>"
+        . "<tr><td>Usuario</td></tr>\n"
+        . "<tr><td><input type=\"text\" name=\"_user\" style=\"width:100%\"></td></tr>\n"
+        . "<tr><td>Password</td></tr>\n"
+        . "<tr><td><input type=\"password\" name=\"_password\" style=\"width:100%\"></td></tr>\n"
+        . "<tr><td><center><input type=\"submit\" name=\"_do_login\" value=\"Login\"></center></td></tr>"
+        . "</table></form>";
+}
+else
+{
+//     $_content .= $_menu;
+    $_content .= "<br><b>Usuario o password incorrecto</b><br>\n";
+    $_content .= "<center><a href=\"javascript: history.go(-1);\" class=\"box_content\">Regresar</a></center><br>\n";
+}
+?>

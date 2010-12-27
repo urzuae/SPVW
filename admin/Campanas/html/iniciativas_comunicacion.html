@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title></title>
+  <meta content="">
+  <link type="text/css" href="file:///var/www/localhost/htdocs/crm/themes/graygreen/style.css" rel="stylesheet">
+</head>
+<body>
+  $_title
+  </script>
+  <form onchange="capsall(this);" method="post" action="index.php" name="campana" onsubmit="return validate(this);">
+    <input name="_module" value="$_module" type="hidden"><input name="_op" value="$_op" type="hidden"><input name="campana_id" value="$campana_id" type="hidden">
+    <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <th colspan="2" rowspan="1">Campa&ntilde;a $nombre</th>
+        </tr>
+        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Actividades de publicidad
+          </td>
+          <td style="width:80%;">
+            <textarea class="width100" rows="5" name="actividades_publicidad">$actividades_publicidad</textarea>
+          </td>
+        </tr>
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Medios
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="medios">$medios</textarea>
+          </td>
+        </tr>
+        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Eventos a realizar
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="eventos">$eventos</textarea>
+          </td>
+        </tr>
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Cambios Página Web
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="cambios_pagina_web">$cambios_pagina_web</textarea>
+          </td>
+        </tr>
+        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Patrocinios y alianzas
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="patrocinios">$patrocinios</textarea>
+          </td>
+        </tr>
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Actividades de Relaciones Públicas
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="actividades_rp">$actividades_rp</textarea>
+          </td>
+        </tr>
+        <tr class="row1">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Marketing Directo
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="marketing_directo">$marketing_directo</textarea>
+          </td>
+        </tr>
+        <tr class="row2">
+          <td style="text-align: right;" colspan="1" rowspan="1">
+            Medio de contacto
+          </td>
+          <td>
+            <textarea class="width100" rows="5" name="medio_contacto">$medio_contacto</textarea>
+          </td>
+        </tr>
+        <tr class="row2" align="center">
+          <td colspan="2" rowspan="1">
+            <input name="submit" value="Aceptar" type="submit" accesskey="a"><input value="Cancelar" onclick="location.href='index.php?_module=$_module&_op=campana&campana_id=$campana_id'" type="button">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body></html>

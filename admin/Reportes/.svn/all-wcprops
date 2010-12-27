@@ -1,0 +1,341 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/crm-prospeccion/!svn/ver/1025/trunk/admin/Reportes
+END
+graph_ciclos_venta.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_ciclos_venta.php
+END
+get_pdf_cantidad_ventas_concretadas_por_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/crm-prospeccion/!svn/ver/730/trunk/admin/Reportes/get_pdf_cantidad_ventas_concretadas_por_vendedor.php
+END
+origenes_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/origenes_excel.php
+END
+graph_origenes.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_origenes.php
+END
+get_pdf_cancelaciones_ventas.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm-prospeccion/!svn/ver/730/trunk/admin/Reportes/get_pdf_cancelaciones_ventas.php
+END
+procesados_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/procesados_concesionaria.php
+END
+templateFiltrosReportes.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/crm-prospeccion/!svn/ver/82/trunk/admin/Reportes/templateFiltrosReportes.php
+END
+ciclo_venta_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/ciclo_venta_excel.php
+END
+penalizacion_usuarios.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/penalizacion_usuarios.php
+END
+excel_cancelaciones_ventas_motivos.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/crm-prospeccion/!svn/ver/1015/trunk/admin/Reportes/excel_cancelaciones_ventas_motivos.php
+END
+graph_total_ventas_por_concesionaria_por_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_total_ventas_por_concesionaria_por_vendedor.php
+END
+zonas_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/zonas_excel.php
+END
+graph_prospectos_ciclo_ventas.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_prospectos_ciclo_ventas.php
+END
+autos_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/autos_excel.php
+END
+origenes.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/origenes.php
+END
+grupo_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/grupo_excel.php
+END
+casos_resueltos.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/casos_resueltos.php
+END
+casos_no_resueltos_usuario.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/casos_no_resueltos_usuario.php
+END
+status_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/492/trunk/admin/Reportes/status_concesionaria.php
+END
+prospectos_tmp.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/prospectos_tmp.php
+END
+excel_cantidad_ventas_concretadas_por_vendedor.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/crm-prospeccion/!svn/ver/730/trunk/admin/Reportes/excel_cantidad_ventas_concretadas_por_vendedor.php
+END
+prospectos_no_asignados.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/prospectos_no_asignados.php
+END
+templateFiltrosReportes_T.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/templateFiltrosReportes_T.php
+END
+ciclo_venta.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/ciclo_venta.php
+END
+excel_cancelaciones_ventas.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/1025/trunk/admin/Reportes/excel_cancelaciones_ventas.php
+END
+graph_ciclos_venta_gestionados.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_ciclos_venta_gestionados.php
+END
+encuestas.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/encuestas.php
+END
+construye_grafica_t.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/162/trunk/admin/Reportes/construye_grafica_t.php
+END
+reporte_encuestas.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/reporte_encuestas.php
+END
+zonas.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/zonas.php
+END
+autos.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/54/trunk/admin/Reportes/autos.php
+END
+grupo.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/grupo.php
+END
+reporte_encuesta_servicios.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/reporte_encuesta_servicios.php
+END
+crea_Filtros_Reportes.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/282/trunk/admin/Reportes/crea_Filtros_Reportes.php
+END
+campanas_avance.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/86/trunk/admin/Reportes/campanas_avance.php
+END
+total_ventas_por_concesionaria_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/total_ventas_por_concesionaria_excel.php
+END
+graph_total_ventas_por_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_total_ventas_por_concesionaria.php
+END
+total_prospectos_por_concesionaria_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/total_prospectos_por_concesionaria_excel.php
+END
+graph_total_prospectos_por_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_total_prospectos_por_concesionaria.php
+END
+casos_no_procede.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/casos_no_procede.php
+END
+ciclo_venta_gestionados_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/ciclo_venta_gestionados_excel.php
+END
+construye_grafica.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/282/trunk/admin/Reportes/construye_grafica.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/index.php
+END
+casos_no_resueltos.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/casos_no_resueltos.php
+END
+graph_zonas.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_zonas.php
+END
+graph_autos.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_autos.php
+END
+graph_grupo.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/graph_grupo.php
+END
+graficas.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/129/trunk/admin/Reportes/graficas.php
+END
+get_pdf_cancelaciones_ventas_motivos.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/crm-prospeccion/!svn/ver/1015/trunk/admin/Reportes/get_pdf_cancelaciones_ventas_motivos.php
+END
+pdf_cancelaciones_ventas_motivos.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/pdf_cancelaciones_ventas_motivos.php
+END
+total_ventas_por_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/total_ventas_por_concesionaria.php
+END
+genera_excel.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/730/trunk/admin/Reportes/genera_excel.php
+END
+total_prospectos_por_concesionaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/total_prospectos_por_concesionaria.php
+END
+crea_Filtros_Reportes_T.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/crm-prospeccion/!svn/ver/221/trunk/admin/Reportes/crea_Filtros_Reportes_T.php
+END
+campanas_avances.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/campanas_avances.php
+END
+ciclo_venta_gestionados.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/2/trunk/admin/Reportes/ciclo_venta_gestionados.php
+END

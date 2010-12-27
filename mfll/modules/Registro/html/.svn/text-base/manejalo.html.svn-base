@@ -1,0 +1,21 @@
+<body>
+<form name="new" action="index.php?_module=Registro&_op=manejalo&contacto_id=$contacto_id" method="post">
+    <input name="_module" value="Registro" type="hidden">
+    <input name="_op" value="manejalo" type="hidden">
+    <input name="contador" value="$contador" type="hidden">        
+    <input name="contacto_id" value="$contacto_id" type="hidden">
+    <table style="text-align: left; width: 40%;" border="0" cellpadding="2" cellspacing="1">
+    <tbody>
+    <tr class="row2">
+        <td colspan="3" align="center">$nombre_prospecto</td>
+      </tr>
+      <tr>
+        <td width="25%">Auto de Interes</td>
+        <td>$select_autos</td>
+        <td>$boton</td>
+      </tr>
+      <tr><td colspan="2" align="center">$buffer</td>
+    </tbody>
+  </table>
+</form>
+</body>

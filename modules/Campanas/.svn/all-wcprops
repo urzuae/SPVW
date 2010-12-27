@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/crm-prospeccion/!svn/ver/1678/trunk/modules/Campanas
+END
+contrato.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/contrato.php
+END
+citas_csv_print.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/citas_csv_print.php
+END
+llamada.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/1678/trunk/modules/Campanas/llamada.php
+END
+llamada_ro.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/841/trunk/modules/Campanas/llamada_ro.php
+END
+pendientes.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/pendientes.php
+END
+arreglar.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/arreglar.php
+END
+contratos_csv_print.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/contratos_csv_print.php
+END
+guardar_nota.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/guardar_nota.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/index.php
+END
+ajax-contacto_tiempo.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/ajax-contacto_tiempo.php
+END
+RegistraFechaFirmado.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/crm-prospeccion/!svn/ver/16/trunk/modules/Campanas/RegistraFechaFirmado.php
+END
+compromisos.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/crm-prospeccion/!svn/ver/12/trunk/modules/Campanas/compromisos.php
+END
+actualiza_venta.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/crm-prospeccion/!svn/ver/307/trunk/modules/Campanas/actualiza_venta.php
+END
+RegistraVenta.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/crm-prospeccion/!svn/ver/274/trunk/modules/Campanas/RegistraVenta.php
+END
+waga.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/waga.php
+END
+buscar.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/crm-prospeccion/!svn/ver/643/trunk/modules/Campanas/buscar.php
+END
+cita.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/cita.php
+END
+actividades.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/698/trunk/modules/Campanas/actividades.php
+END
+reporte.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/reporte.php
+END
+llamada_cancelar.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/834/trunk/modules/Campanas/llamada_cancelar.php
+END
+actualiza_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/crm-prospeccion/!svn/ver/1586/trunk/modules/Campanas/actualiza_email.php
+END
+contratos_csv.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/crm-prospeccion/!svn/ver/2/trunk/modules/Campanas/contratos_csv.php
+END
+llamada_venta.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/crm-prospeccion/!svn/ver/1584/trunk/modules/Campanas/llamada_venta.php
+END
