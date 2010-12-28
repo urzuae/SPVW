@@ -13,11 +13,11 @@
                     <td colspan=2>Campa&ntilde;a</td>
                 </thead>
                 <tbody>
-                    <tr class="row2">
+                    <tr class="row1">
                         <td width="20%">Gerente General</td>
                         <td></td>
                     </tr>
-                    <tr class="row1">
+                    <tr class="row2">
                         <td>Gerente de Marketing</td>
                         <td></td>
                     </tr>
@@ -25,7 +25,7 @@
                         <td>Numero de Concesionaria</td>
                         <td>$pid</td>
                     </tr>
-                    <tr class="row1">
+                    <tr class="row2">
                         <td>Fecha de Elaboracion</td>
                         <td>$date</td>
                     </tr>
@@ -45,7 +45,7 @@
                         <td width="20%">Objetivo de Ventas</td>
                         <td></td>
                     </tr>
-                    <tr class="row1">
+                    <tr class="row2">
                         <td>Presupuesto minimo invertido</td>
                         <td></td>
                     </tr>
@@ -58,7 +58,7 @@
                     <tr><td colspan=2>Acciones</td></tr>
                 </thead>
                 <tbody>
-                    <tr class="row2">
+                    <tr class="row1">
                         <td width="20%">Nombre de la accion</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
@@ -110,7 +110,7 @@
                           button : "f_trigger_c"
                         });
                     </script>
-                    <tr class="row2">
+                    <tr class="row1">
                         <td>Fecha de fin</td>
                         <td><input name="fecha_fin" id="fecha_fin" value="$fecha_fin"><img src="img/calendar.gif" id="f_trigger_d" style="border: 1px solid red; cursor: pointer;" title="Fecha" onmouseover="this.style.background='red';" onmouseout="this.style.background=''"></td>
                     </tr>
@@ -127,7 +127,7 @@
                         <td>Lugar</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
-                    <tr class="row2">
+                    <tr class="row1">
                         <td>Dirigido a</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
@@ -135,7 +135,7 @@
                         <td>Medios Materiales</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
-                    <tr class="row2">
+                    <tr class="row1">
                         <td>Presupuesto</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
@@ -143,7 +143,7 @@
                         <td>Prospectos Calificados</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
-                    <tr class="row2">
+                    <tr class="row1">
                         <td>Beneficios esperados</td>
                         <td><input type="text" size="95" /></td>
                     </tr>
@@ -156,14 +156,20 @@
                     <td colspan=2>Buscar Fuente</td>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td width="20%">Fuente</td>
-                        <td><input type="text" size="95" /></td>
+                    <tr class="row2">
+                        <td>Fuente: <input type="text" size="50" /></td>
+                    </tr>
+                    <tr class="row2">
+                        <td><center>
+                        <input type="button" value="Buscar" />
+                        <input type="button" value="Regresar" /></center>
+                        </td>
                     </tr>
                 </tbody>
             </table>
-            <input type="button" value="Buscar" />
-            <input type="button" value="Regresar" />
+            <br/>
+            <input type="button" value="Añadir" />
+            <input type="button" value="Limpiar" />
         </center>
     </body>
 </html>
