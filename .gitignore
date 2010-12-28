@@ -1,0 +1,6 @@
+.svn
+.svn/*
+log/*.log
+log/*.pid
+tmp/*
+config.php
